@@ -28,6 +28,11 @@ public class Numero {
         return valor;
     }
     
+    public Numero SumarNumero(Numero B)
+    {
+        return new Numero(valor + B.Numero());
+    }
+    
     public void Numero(int valor)
     {
         this.valor = valor;
