@@ -19,6 +19,11 @@ public class Numero {
         valor=0;
     }
     
+    public Numero(int a)
+    {
+        valor = a;
+    }
+    
     public int Numero(){
         return valor;
     }

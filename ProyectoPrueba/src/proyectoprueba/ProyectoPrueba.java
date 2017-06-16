@@ -21,6 +21,8 @@ public class ProyectoPrueba {
         Scanner Input = new Scanner(System.in);
         int n0 = Input.nextInt();
         int n1 = Input.nextInt();
+        Numero A = new Numero(n0);
+        Numero B = new Numero(n1);
     }
     
 }
