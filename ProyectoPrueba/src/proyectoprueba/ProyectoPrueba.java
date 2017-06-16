@@ -23,8 +23,9 @@ public class ProyectoPrueba {
         int n1 = Input.nextInt();
         Numero A = new Numero(n0);
         Numero B = new Numero(n1);
-        
-        
+        Numero C = A.SumarNumero(B);
+        System.out.println(A.Numero() + " + " + B.Numero() + " = " + C.Numero());
+       
     }
     
 }
